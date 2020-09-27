@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9130406539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Search for multiple products",
+        "description": "",
+        "id": "homepage-functionality;search-for-multiple-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 69345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1091173263,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the homepage of the Argos website",
+            "match": {
+              "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4435067741,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user search for\"nike\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nike",
+                  "offset": 16
+                }
+              ],
+              "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34687,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user can see multiple products",
+            "match": {
+              "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Multipleinput"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5434127865,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search for multiple products",
+        "description": "",
+        "id": "homepage-functionality;search-for-multiple-products;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 30498,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 313025225,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on the homepage of the Argos website",
+            "match": {
+              "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5113966875,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user search for\"puma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "puma",
+                  "offset": 16
+                }
+              ],
+              "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40171,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user can see multiple products",
+            "match": {
+              "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Multipleinput"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Functionality",
+    "description": "",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature"
+  }
+]
