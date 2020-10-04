@@ -28,3 +28,14 @@ Feature: Homepage Functionality
           |products|
           |nike    |
           |puma    |
+
+
+          @DoubleOutput
+          Scenario Outline: Enter multiple products
+            Given User is on the homepage of the Argos website
+            When user search for "<items>"
+            Then user can see multiple items
+            Examples:
+            |items|
+            |rado |
+            |armani|
