@@ -7,196 +7,196 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 23,
-  "name": "Search for multiple products",
+  "line": 34,
+  "name": "Enter multiple products",
   "description": "",
-  "id": "homepage-functionality;search-for-multiple-products",
+  "id": "homepage-functionality;enter-multiple-products",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
-      "name": "@Multipleinput"
+      "line": 33,
+      "name": "@DoubleOutput"
     }
   ]
 });
 formatter.step({
-  "line": 24,
+  "line": 35,
   "name": "User is on the homepage of the Argos website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 25,
-  "name": "user search for\"\u003cproducts\u003e\"",
+  "line": 36,
+  "name": "user search for \"\u003citems\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 26,
-  "name": "user can see multiple products",
+  "line": 37,
+  "name": "user can see multiple items",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 38,
   "name": "",
   "description": "",
-  "id": "homepage-functionality;search-for-multiple-products;",
+  "id": "homepage-functionality;enter-multiple-products;",
   "rows": [
     {
       "cells": [
-        "products"
+        "items"
       ],
-      "line": 28,
-      "id": "homepage-functionality;search-for-multiple-products;;1"
+      "line": 39,
+      "id": "homepage-functionality;enter-multiple-products;;1"
     },
     {
       "cells": [
-        "nike"
+        "rado"
       ],
-      "line": 29,
-      "id": "homepage-functionality;search-for-multiple-products;;2"
+      "line": 40,
+      "id": "homepage-functionality;enter-multiple-products;;2"
     },
     {
       "cells": [
-        "puma"
+        "armani"
       ],
-      "line": 30,
-      "id": "homepage-functionality;search-for-multiple-products;;3"
+      "line": 41,
+      "id": "homepage-functionality;enter-multiple-products;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9130406539,
+  "duration": 5517051228,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "Search for multiple products",
+  "line": 40,
+  "name": "Enter multiple products",
   "description": "",
-  "id": "homepage-functionality;search-for-multiple-products;;2",
+  "id": "homepage-functionality;enter-multiple-products;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
-      "name": "@Multipleinput"
+      "line": 33,
+      "name": "@DoubleOutput"
     }
   ]
 });
 formatter.step({
-  "line": 24,
+  "line": 35,
   "name": "User is on the homepage of the Argos website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 25,
-  "name": "user search for\"nike\"",
+  "line": 36,
+  "name": "user search for \"rado\"",
   "matchedColumns": [
     0
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 26,
-  "name": "user can see multiple products",
+  "line": 37,
+  "name": "user can see multiple items",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
 });
 formatter.result({
-  "duration": 1091173263,
+  "duration": 961581230,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "nike",
-      "offset": 16
+      "val": "rado",
+      "offset": 17
     }
   ],
-  "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+  "location": "Resultpage_DoubleOutput.user_search_for(String)"
 });
 formatter.result({
-  "duration": 4435067741,
+  "duration": 5043067295,
   "status": "passed"
 });
 formatter.match({
-  "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+  "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
 });
 formatter.result({
-  "duration": 34687,
+  "duration": 68054,
   "status": "passed"
 });
 formatter.after({
-  "duration": 69345,
+  "duration": 60970,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5434127865,
+  "duration": 5204418815,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 30,
-  "name": "Search for multiple products",
+  "line": 41,
+  "name": "Enter multiple products",
   "description": "",
-  "id": "homepage-functionality;search-for-multiple-products;;3",
+  "id": "homepage-functionality;enter-multiple-products;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 22,
-      "name": "@Multipleinput"
+      "line": 33,
+      "name": "@DoubleOutput"
     }
   ]
 });
 formatter.step({
-  "line": 24,
+  "line": 35,
   "name": "User is on the homepage of the Argos website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 25,
-  "name": "user search for\"puma\"",
+  "line": 36,
+  "name": "user search for \"armani\"",
   "matchedColumns": [
     0
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 26,
-  "name": "user can see multiple products",
+  "line": 37,
+  "name": "user can see multiple items",
   "keyword": "Then "
 });
 formatter.match({
   "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
 });
 formatter.result({
-  "duration": 313025225,
+  "duration": 27877705,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "puma",
-      "offset": 16
+      "val": "armani",
+      "offset": 17
     }
   ],
-  "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+  "location": "Resultpage_DoubleOutput.user_search_for(String)"
 });
 formatter.result({
-  "duration": 5113966875,
+  "duration": 1751277584,
   "status": "passed"
 });
 formatter.match({
-  "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+  "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
 });
 formatter.result({
-  "duration": 40171,
+  "duration": 50735,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30498,
+  "duration": 28143,
   "status": "passed"
 });
 });

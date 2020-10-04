@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature", tags = {"@Multipleinput"},
+@CucumberOptions(features = "/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature", tags = {"@DoubleOutput"},
 plugin = {"html:target/cucumber-html-report",
          "json:target/cucumber-json-report.json",
          "junit:target/cucumber-xml-report.xml",
@@ -22,3 +22,4 @@ public class RunCukeTest
 //push into the Dev branch
 //push into my own branch
 //this is demo1
+//this is the pull command demo

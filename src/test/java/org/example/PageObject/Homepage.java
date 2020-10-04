@@ -60,5 +60,11 @@ public class Homepage extends DriverFactory
         SearchButton.click();
     }
 
+    public void doublesearch(String product)
+    {
+        SearchTextBox.sendKeys(product);
+        SearchButton.click();
+    }
+
 
 }//end of class
