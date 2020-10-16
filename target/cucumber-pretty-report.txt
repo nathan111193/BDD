@@ -1,21 +1,21 @@
 Feature: Homepage Functionality
 
-  @Multipleinput
-  Scenario Outline: Search for multiple products       [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:23[0m
+  @DoubleOutput
+  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:34[0m
     [36mGiven [0m[36mUser is on the homepage of the Argos website[0m
-    [36mWhen [0m[36muser search for"<products>"[0m
-    [36mThen [0m[36muser can see multiple products[0m
+    [36mWhen [0m[36muser search for "<items>"[0m
+    [36mThen [0m[36muser can see multiple items[0m
 
     Examples: 
 
-  @Multipleinput
-  Scenario Outline: Search for multiple products       [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:29[0m
+  @DoubleOutput
+  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:40[0m
     [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for"[0m[32m[1mnike[0m[32m"[0m                         [90m# Homepage_scenarioOutlinesSteps.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple products[0m                [90m# Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()[0m
+    [32mWhen [0m[32muser search for "[0m[32m[1mrado[0m[32m"[0m                        [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
+    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m
 
-  @Multipleinput
-  Scenario Outline: Search for multiple products       [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:30[0m
+  @DoubleOutput
+  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:41[0m
     [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for"[0m[32m[1mpuma[0m[32m"[0m                         [90m# Homepage_scenarioOutlinesSteps.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple products[0m                [90m# Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()[0m
+    [32mWhen [0m[32muser search for "[0m[32m[1marmani[0m[32m"[0m                      [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
+    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m

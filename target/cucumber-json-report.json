@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 9130406539,
+              "duration": 15347512954,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 29,
-        "name": "Search for multiple products",
+        "line": 40,
+        "name": "Enter multiple products",
         "description": "",
-        "id": "homepage-functionality;search-for-multiple-products;;2",
+        "id": "homepage-functionality;enter-multiple-products;;2",
         "after": [
           {
             "result": {
-              "duration": 69345,
+              "duration": 11354742280,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1091173263,
+              "duration": 2154468526,
               "status": "passed"
             },
-            "line": 24,
+            "line": 35,
             "name": "User is on the homepage of the Argos website",
             "match": {
               "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
@@ -46,19 +46,19 @@
           },
           {
             "result": {
-              "duration": 4435067741,
+              "duration": 3470170956,
               "status": "passed"
             },
-            "line": 25,
-            "name": "user search for\"nike\"",
+            "line": 36,
+            "name": "user search for \"rado\"",
             "match": {
               "arguments": [
                 {
-                  "val": "nike",
-                  "offset": 16
+                  "val": "rado",
+                  "offset": 17
                 }
               ],
-              "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+              "location": "Resultpage_DoubleOutput.user_search_for(String)"
             },
             "matchedColumns": [
               0
@@ -67,21 +67,21 @@
           },
           {
             "result": {
-              "duration": 34687,
+              "duration": 66328,
               "status": "passed"
             },
-            "line": 26,
-            "name": "user can see multiple products",
+            "line": 37,
+            "name": "user can see multiple items",
             "match": {
-              "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+              "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 22,
-            "name": "@Multipleinput"
+            "line": 33,
+            "name": "@DoubleOutput"
           }
         ]
       },
@@ -89,7 +89,7 @@
         "before": [
           {
             "result": {
-              "duration": 5434127865,
+              "duration": 10471206650,
               "status": "passed"
             },
             "match": {
@@ -97,14 +97,14 @@
             }
           }
         ],
-        "line": 30,
-        "name": "Search for multiple products",
+        "line": 41,
+        "name": "Enter multiple products",
         "description": "",
-        "id": "homepage-functionality;search-for-multiple-products;;3",
+        "id": "homepage-functionality;enter-multiple-products;;3",
         "after": [
           {
             "result": {
-              "duration": 30498,
+              "duration": 11247533943,
               "status": "passed"
             },
             "match": {
@@ -117,10 +117,10 @@
         "steps": [
           {
             "result": {
-              "duration": 313025225,
+              "duration": 378112690,
               "status": "passed"
             },
-            "line": 24,
+            "line": 35,
             "name": "User is on the homepage of the Argos website",
             "match": {
               "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
@@ -129,19 +129,19 @@
           },
           {
             "result": {
-              "duration": 5113966875,
+              "duration": 3686316384,
               "status": "passed"
             },
-            "line": 25,
-            "name": "user search for\"puma\"",
+            "line": 36,
+            "name": "user search for \"armani\"",
             "match": {
               "arguments": [
                 {
-                  "val": "puma",
-                  "offset": 16
+                  "val": "armani",
+                  "offset": 17
                 }
               ],
-              "location": "Homepage_scenarioOutlinesSteps.user_search_for(String)"
+              "location": "Resultpage_DoubleOutput.user_search_for(String)"
             },
             "matchedColumns": [
               0
@@ -150,21 +150,21 @@
           },
           {
             "result": {
-              "duration": 40171,
+              "duration": 43240,
               "status": "passed"
             },
-            "line": 26,
-            "name": "user can see multiple products",
+            "line": 37,
+            "name": "user can see multiple items",
             "match": {
-              "location": "Homepage_scenarioOutlinesSteps.user_can_see_multiple_products()"
+              "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 22,
-            "name": "@Multipleinput"
+            "line": 33,
+            "name": "@DoubleOutput"
           }
         ]
       }

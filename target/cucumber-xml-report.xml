@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="25.517943">
-    <testcase classname="Homepage Functionality" name="Search for multiple products" time="14.656752">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="58.110174">
+    <testcase classname="Homepage Functionality" name="Enter multiple products" time="32.326961">
         <system-out><![CDATA[Given User is on the homepage of the Argos website..........................passed
-When user search for"nike"..................................................passed
-Then user can see multiple products.........................................passed
+When user search for "rado".................................................passed
+Then user can see multiple items............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Homepage Functionality" name="Search for multiple products 2" time="10.861191">
+    <testcase classname="Homepage Functionality" name="Enter multiple products 2" time="25.783213">
         <system-out><![CDATA[Given User is on the homepage of the Argos website..........................passed
-When user search for"puma"..................................................passed
-Then user can see multiple products.........................................passed
+When user search for "armani"...............................................passed
+Then user can see multiple items............................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
