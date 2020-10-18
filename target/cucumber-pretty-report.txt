@@ -1,21 +1,32 @@
-Feature: Homepage Functionality
+Feature: Iceland homepage
 
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:34[0m
-    [36mGiven [0m[36mUser is on the homepage of the Argos website[0m
-    [36mWhen [0m[36muser search for "<items>"[0m
-    [36mThen [0m[36muser can see multiple items[0m
-
-    Examples: 
-
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:40[0m
-    [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for "[0m[32m[1mrado[0m[32m"[0m                        [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m
-
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:41[0m
-    [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for "[0m[32m[1marmani[0m[32m"[0m                      [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m
+  @sanity
+  Scenario: Check search functionality                   [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/IcelandHomepage.feature:4[0m
+    [32mGiven [0m[32muser is on the homepage of the Iceland website[0m [90m# Icelandsearchbox.user_is_on_the_homepage_of_the_Iceland_website()[0m
+    [32mWhen [0m[32muser types crisps in the searchbox[0m              [90m# Icelandsearchbox.user_types_crisps_in_the_searchbox()[0m
+    [31mThen [0m[31muser will see the results[0m                       [90m# Icelandsearchbox.user_will_see_the_results()[0m
+      [31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+        (Session info: chrome=86.0.4240.80)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'Nathan-2.local', ip: '2a00:23c7:d004:5d01:c1f3:805c:c440:662%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/4j/zfcswtg91yz...}, goog:chromeOptions: {debuggerAddress: localhost:62977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: 05361bc10548ce32e8ab0b3cb8f71629
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+      	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+      	at org.example.PageObject.Icelandhomepage.selection(Icelandhomepage.java:45)
+      	at org.example.StepDefinitions.Icelandsearchbox.user_will_see_the_results(Icelandsearchbox.java:25)
+      	at ✽.Then user will see the results(/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/IcelandHomepage.feature:7)
+      [0m

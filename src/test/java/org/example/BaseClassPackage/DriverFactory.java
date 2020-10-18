@@ -3,12 +3,9 @@ package org.example.BaseClassPackage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class DriverFactory
@@ -41,13 +38,14 @@ public class DriverFactory
 
         driver = new RemoteWebDriver(new URL(URL), caps);*/
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://www.argos.co.uk/");
+        //driver.get("https://www.argos.co.uk/");
+        driver.get("https://www.iceland.co.uk/");
         driver.manage().window().maximize();
     }
 
     public void closebrowser() throws InterruptedException
     {
         Thread.sleep(10000);
-        driver.quit();
+        //driver.quit();
     }
 }
