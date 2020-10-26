@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.505482">
-    <testcase classname="Homepage Functionality" name="Enter multiple products" time="11.521829">
-        <system-out><![CDATA[Given User is on the homepage of the Argos website..........................passed
-When user search for "rado".................................................passed
-Then user can see multiple items............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Homepage Functionality" name="Enter multiple products 2" time="6.983653">
-        <system-out><![CDATA[Given User is on the homepage of the Argos website..........................passed
-When user search for "armani"...............................................passed
-Then user can see multiple items............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.663134">
+    <testcase classname="homepage functionality" name="checking the homepage" time="39.663134">
+        <system-out><![CDATA[Given user is on the homepage...............................................passed
+When user enters cake.......................................................passed
+Then user will be able to see the results...................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

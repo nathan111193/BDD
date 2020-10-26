@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5517051228,
+              "duration": 8978586585,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 40,
-        "name": "Enter multiple products",
+        "line": 3,
+        "name": "checking the homepage",
         "description": "",
-        "id": "homepage-functionality;enter-multiple-products;;2",
+        "id": "homepage-functionality;checking-the-homepage",
         "after": [
           {
             "result": {
-              "duration": 60970,
+              "duration": 10002912378,
               "status": "passed"
             },
             "match": {
@@ -30,149 +30,51 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 961581230,
+              "duration": 912857101,
               "status": "passed"
             },
-            "line": 35,
-            "name": "User is on the homepage of the Argos website",
+            "line": 4,
+            "name": "user is on the homepage",
             "match": {
-              "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
+              "location": "AsdaHomepage.user_is_on_the_homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5043067295,
+              "duration": 19768524247,
               "status": "passed"
             },
-            "line": 36,
-            "name": "user search for \"rado\"",
+            "line": 5,
+            "name": "user enters cake",
             "match": {
-              "arguments": [
-                {
-                  "val": "rado",
-                  "offset": 17
-                }
-              ],
-              "location": "Resultpage_DoubleOutput.user_search_for(String)"
+              "location": "AsdaHomepage.user_enters_cake()"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 68054,
+              "duration": 253419,
               "status": "passed"
             },
-            "line": 37,
-            "name": "user can see multiple items",
+            "line": 6,
+            "name": "user will be able to see the results",
             "match": {
-              "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
+              "location": "AsdaHomepage.user_will_be_able_to_see_the_results()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 33,
-            "name": "@DoubleOutput"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5204418815,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setup()"
-            }
-          }
-        ],
-        "line": 41,
-        "name": "Enter multiple products",
-        "description": "",
-        "id": "homepage-functionality;enter-multiple-products;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 28143,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 27877705,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "User is on the homepage of the Argos website",
-            "match": {
-              "location": "Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1751277584,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "user search for \"armani\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "armani",
-                  "offset": 17
-                }
-              ],
-              "location": "Resultpage_DoubleOutput.user_search_for(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 50735,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "user can see multiple items",
-            "match": {
-              "location": "Resultpage_DoubleOutput.user_can_see_multiple_items()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 33,
-            "name": "@DoubleOutput"
           }
         ]
       }
     ],
-    "name": "Homepage Functionality",
+    "name": "homepage functionality",
     "description": "",
     "id": "homepage-functionality",
     "keyword": "Feature",
-    "uri": "/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature"
+    "uri": "/Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Asdahomepage.feature"
   }
 ]

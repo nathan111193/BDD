@@ -1,21 +1,6 @@
-Feature: Homepage Functionality
+Feature: homepage functionality
 
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:34[0m
-    [36mGiven [0m[36mUser is on the homepage of the Argos website[0m
-    [36mWhen [0m[36muser search for "<items>"[0m
-    [36mThen [0m[36muser can see multiple items[0m
-
-    Examples: 
-
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:40[0m
-    [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for "[0m[32m[1mrado[0m[32m"[0m                        [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m
-
-  @DoubleOutput
-  Scenario Outline: Enter multiple products            [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Homepage1.feature:41[0m
-    [32mGiven [0m[32mUser is on the homepage of the Argos website[0m [90m# Homepage1_searchbox.user_is_on_the_homepage_of_the_Argos_website()[0m
-    [32mWhen [0m[32muser search for "[0m[32m[1marmani[0m[32m"[0m                      [90m# Resultpage_DoubleOutput.user_search_for(String)[0m
-    [32mThen [0m[32muser can see multiple items[0m                   [90m# Resultpage_DoubleOutput.user_can_see_multiple_items()[0m
+  Scenario: checking the homepage             [90m# /Users/nathanpereira/IdeaProjects/BDD/src/test/Resources/Asdahomepage.feature:3[0m
+    [32mGiven [0m[32muser is on the homepage[0m             [90m# AsdaHomepage.user_is_on_the_homepage()[0m
+    [32mWhen [0m[32muser enters cake[0m                     [90m# AsdaHomepage.user_enters_cake()[0m
+    [32mThen [0m[32muser will be able to see the results[0m [90m# AsdaHomepage.user_will_be_able_to_see_the_results()[0m
