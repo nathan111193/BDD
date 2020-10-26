@@ -39,7 +39,9 @@ public class DriverFactory
         driver = new RemoteWebDriver(new URL(URL), caps);*/
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.get("https://www.argos.co.uk/");
-        driver.get("https://www.iceland.co.uk/");
+        //driver.get("https://www.iceland.co.uk/");
+        driver.get("https://www.asda.com/");
+        //driver.get("https://www.tesco.com/");
         driver.manage().window().maximize();
     }
 
